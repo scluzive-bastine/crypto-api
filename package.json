@@ -4,12 +4,13 @@
   "description": "crypto currency API",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "Sabastine",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.25.0",
+    "coingecko-api": "^1.0.10",
     "express": "^4.17.2",
     "nodemon": "^2.0.15"
   }
